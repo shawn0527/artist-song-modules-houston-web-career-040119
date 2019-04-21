@@ -35,4 +35,7 @@ class Song
   def to_param
     name.downcase.gsub(' ', '-')
   end
+
+  binding.pry
+  0
 end
